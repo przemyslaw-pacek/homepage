@@ -5,7 +5,7 @@
 
     welcome();
 
-    const init = () => {
+    const button = () => {
         const przycisk = document.querySelector(".przycisk");
         const zdjecie = document.querySelector(".zdjecie");
 
@@ -14,5 +14,5 @@
         });
     };
 
-    init();
+    button();
 }
