@@ -6,4 +6,10 @@
 
 https://doncochino.github.io/homepage/
 
-## A few words about me :)
+## Description 
+A few words about me, what I did, what interests me and what my plans are :)
+
+## Used technologies:
+- HTML
+- CSS
+- JavaScript
