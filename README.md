@@ -1,6 +1,6 @@
 # Przemysław Pacek - my website
 
-![Przemek](images/PP.jpg)
+![Przemek](images/printscreen.jpg)
 
 ## Demo
 
