@@ -12,52 +12,110 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
-    <h1 class="podtytul">Przemysław Pacek</h1>
+<body class="body">
+    <header>
+        <h1 class="title">Przemysław Pacek Frontend Developer</h1>
+        <p class="change"><button class="button">Włącz <span class="themeName">ciemny</span> motyw</button></p>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li><a class="navigation__link" href="#historia">Krótka historia</a></li>
+            <li><a class="navigation__link" href="#hobby">Zainteresowania</a></li>
+            <li><a class="navigation__link navigation__link--movies" href="#filmy">Ulubione filmy</a></li>
+            <li><a class="navigation__link" href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+    <img class="picture" height="500" src="images/laptop.jpg" alt="Laptop">
+    <main>
+        <section class="section">
+            <h2 class="section__position section__header" id="historia">Krótka historia</h2>
+            <p class="section__description">Witaj! Nazywam się Przemysław Pacek. Zajmowałem się wieloma rzeczami,
+                pracując na
+                różnych
+                stanowiskach i w
+                różnych firmach.
+                Między innymi pracowałem w branży AGD-RTV, finansowej, meblowej, spożywczej, w firmie produkcyjnej, jak
+                również w biurze
+                rachunkowym.
 
-    <img class="zdjecie" height="150" src="images/PP.jpg" alt="Przemysław">
-    <p>
-        <button class="button">Włącz <span class="themeName">ciemny</span> motyw</button>
-    </p>
+            <p class="section__description">Każde z moich poprzednich stanowisk dało mi jakieś doświadczenie i nauczyłem
+                się
+                wielu
+                rzeczy, jednak nadal
+                nie byłem w pełni
+                usatysfakcjonowany. Szukałem cegoś co mi da większą niezależność i opłacalnosć.</p>
 
-    <h2 class="naglowek">To robiłem</h2>
-
-    <p>Obecnie pracuję jako <i>operator maszyn CNC.</i> Wcześniej pracowałem w wielu firmach i na wielu stanowiskach.
-        Między innymi pracowałem w biurze rachunkowym, banku i w dwóch firmach pozabankowych na stanowisku doradcy, a w
-        jednej firmie
-        jako kierownik zespołu. Byłem specjalistą do spraw serwisu. Byłem koordynatorem ds usług, kierownikiem i doradcą
-        klienta,
-        łącznie w trzech firmach branży RTV-AGD. W salonie meblowym projektowałem meble kuchenne, a miałem stanowisko
-        jako menager objektu.
-        Byłem kierowcą - woziłem ludzi na dializy. Pracowałem jako pracownik techniczny w firmie produkującej reklamy
-        świetlne oraz
-        jako sprzedawca w sklepie z odzieżą. <span class="fajnaSprawa"><br><b>Udzielałem się ostatnio jako wolontariusz
-                w
-                Szlachetnej Paczce jako lider rejonu.</b></span>
-    </p>
-
-    <p>
-        <em>Na dzień dzisiejszy poszukuję ciekawego, stabilnego i dającego dużą swobodę zajęcia.</em> Mam nadzieję, że
-        stonwisko jako <strong>Frontend
-            Developer</strong> mi to zagwarantuje.
-    </p>
-
-    <h2 class="naglowek">To ukończyłem</h2>
-
-    <p>Kurs operatora obrabiarek skrawających sterowanych numerycznie CNC. Szkolenie na pracownika do spraw księgowości
-        i rachunkowości. Mam licencjata z handlu zagranicznego, a szkoła średnia to liceum ekonomiczne.</p>
-
-    <h3 class="zakonczenie">Tym się interesuję</h3>
-
-    <div class="pudelko">
-        <p>Tak jak każdy lubię słuchać muzyki, praktycznie każdej, a najbardziej rocka. Lubię oglądać filmy,
-            uwielbiam grać w <span class="ciekawaGra">brydża</span> i jeździć na rowerzę. Uwielbiam
-            również przebywać na łonie natury.</p>
-    </div>
-
+            <p class="section__description">Od 2023 roku przez przypadek wpadłem na reklamę kursu na <b>Frontend
+                    Developera</b>,
+                po 3
+                miesiącach
+                zacząłem poważnie zastanawiać się nad szkoleniem na programistę, do końca niewiedząc kto to jest
+                frontend
+                developer.
+                Po kilku obejrzanych webinarach trafiłem na kurs do <em>You Code</em>. Sama nauka programowania sprawia
+                mi ogromną frajdę.</p>
+        </section>
+        <section class="section section--dark">
+            <h2 class="section__position section__header" id="hobby">Zainteresowania</h2>
+            <p class="section__description"></p>
+            <ul class="section__description">
+                <li>Programowanie - HTML, CSS, JavaScript, BEM.</li>
+                <li>Słuchanie muzyki - praktycznie każdy gatunek, ale najbardziej ciężki rock.</li>
+                <li>Oglądanie filmów - najlepiej tych dobrych, zwłaszcza jak mają głębsze przesłanie.</li>
+                <li>Gra w brydża towrzyskiego, jak i sportowego.</li>
+                <li>Jazda na rowerze, spacery, spędzanie aktywnie czasu na łonie natury.</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2 class="section__position navigation__link--movies" id="filmy">Ulubione filmy</h2>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption"><b>Lista filmów</b></caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="col">Rok</th>
+                        <th class="table__cell table__header" scope="col">Tytuł</th>
+                        <th class="table__cell table__header" scope="col">Reżyser</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">1973</th>
+                        <td class="table__cell">Egzorcysta</td>
+                        <td class="table__cell">William Friedkin</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">1994</th>
+                        <td class="table__cell">Skazani na Shawshank</td>
+                        <td class="table__cell table__cell--double" rowspan="2">Frank Darabont</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">1999</th>
+                        <td class="table__cell">Zielona mila</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">2016</th>
+                        <td class="table__cell">Frantz</td>
+                        <td class="table__cell">François Ozon</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__header" scope="row">2019</th>
+                        <td class="table__cell">Joker</td>
+                        <td class="table__cell">Todd Phillips</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p id="kontakt">Kontakt tel.:<a href="tel:889038780">889 038 780</a>, email:<a
+                href="malito:ppacek@op.pl">ppacek@op.pl</a></p>
+    </footer>
 </body>
 
 </html>

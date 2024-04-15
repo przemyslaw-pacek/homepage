@@ -1,0 +1,31 @@
+.section {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px #ccc;
+}
+
+.section__position {
+    text-align: left;
+    margin: 20px 40px 10px;
+}
+
+.section__description {
+    text-align: justify;
+    font-size: 18px;
+    margin: 20px 40px;
+    list-style-type: square;
+}
+
+.section__header {
+    color: teal;
+}
+
+.section--dark {
+    color: #eee;
+    background: #222;
+}
+
+.bright {
+    color: black;
+    background: white;
+}

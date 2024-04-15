@@ -1,0 +1,24 @@
+.navigation {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px #ccc;
+}
+
+.navigation__list {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(195, 127, 31);
+}
+
+.navigation__link--movies.navigation__link--movies {
+    color: red;
+}
