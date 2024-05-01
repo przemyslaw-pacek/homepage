@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://doncochino.github.io/homepage/
+https://przemyslaw-pacek.github.io/homepage/
 
 ## Description 
 A few words about me, what I did, what interests me and what my plans are :)
