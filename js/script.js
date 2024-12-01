@@ -1,25 +1,25 @@
 {
-    const welcome = () => {
-        console.log("Witam Was serdecznie!");
-    };
+  const welcome = () => {
+    console.log("Witam Was serdecznie!");
+  };
 
-    welcome();
+  welcome();
 
-    const toogleBackground = () => {
-        const body = document.body;
-        const themeName = document.querySelector(".themeName");
-        const sectionDark = document.querySelector(".section--dark");
-        
-        body.classList.toggle("dark");
-        sectionDark.classList.toggle("bright");
+  const toogleBackground = () => {
+    const body = document.body;
+    const themeName = document.querySelector(".themeName");
+    const sectionDark = document.querySelector(".section--dark");
 
-        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-    };
+    body.classList.toggle("dark");
+    sectionDark.classList.toggle("bright");
 
-    const button = () => {
-        const button = document.querySelector(".button");
-        button.addEventListener("click", toogleBackground);
-    };
+    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+  };
 
-    button();
+  const button = () => {
+    const button = document.querySelector(".button");
+    button.addEventListener("click", toogleBackground);
+  };
+
+  button();
 }
