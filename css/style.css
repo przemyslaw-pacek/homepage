@@ -1,40 +1,41 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    max-width: 1000px;
-    text-align: center;
-    margin: auto;
+  max-width: 1000px;
+  text-align: center;
+  margin: auto;
 }
 
 *,
-::after ::before {
-    box-sizing: inherit;
+::after,
+::before {
+  box-sizing: inherit;
 }
 
 .title {
-    box-shadow: 8px 8px 24px 0px #818181;
-    padding: 5px;
+  box-shadow: 8px 8px 24px 0px #818181;
+  padding: 5px;
 }
 
 .change {
-    text-align: right;
+  text-align: right;
 }
 
 .picture {
-    box-shadow: 8px 8px 24px 0px #818181;
-    width: 80%;
-    margin: 10px 0;
+  box-shadow: 8px 8px 24px 0px #818181;
+  width: 80%;
+  margin: 10px 0;
 }
 
 .dark {
-    color: #eee;
-    background: #222;
+  color: #eee;
+  background: #222;
 }
 
 .footer {
-    background-color: #b5b5b5;
-    line-height: 1.8;
-    font-weight: bold;
+  background-color: #b5b5b5;
+  line-height: 1.8;
+  font-weight: bold;
 }
